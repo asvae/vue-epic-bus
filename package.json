@@ -1,0 +1,24 @@
+{
+  "name": "vue-epic-bus",
+  "version": "0.1.0",
+  "description": "Bus plugin for vue.js",
+  "author": "Yauheni Prakopchyk",
+  "private": false,
+  "module": "index.js",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asvae/vue-epic-bus.git"
+  },
+  "bugs": {
+    "url": "https://github.com/asvae/vue-epic-bus/issues"
+  },
+  "peerDependencies": {
+    "vue": "^2.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}
