@@ -3,7 +3,7 @@ const defaultOptions = {
   broadcastName: '$cast',
 }
 
-export class Bus {
+class Bus {
   constructor () {
     // Subscribed components - array of closures
     this.subscribers = new Map
@@ -36,7 +36,7 @@ export class Bus {
   }
 }
 
-export const BusPlugin = {
+const BusPlugin = {
   install (Vue, options = {}) {
     options = Object.assign({}, defaultOptions, options)
 
@@ -67,3 +67,5 @@ export const BusPlugin = {
     Vue.prototype.$busInstance = bus
   },
 }
+
+exports.BusPlugin = BusPlugin

@@ -1,1 +1,1 @@
-export {BusPlugin} from './src/BusPlugin'
+exports.BusPlugin = require('./src/BusPlugin').BusPlugin
