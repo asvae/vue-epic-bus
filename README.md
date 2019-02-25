@@ -42,7 +42,6 @@ export default {
   methods: {
     productUpdated (id) {
       this.$cast('updated', id)
-      console.log('Product updated', id)
     }
   },
 }
