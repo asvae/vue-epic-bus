@@ -1,6 +1,6 @@
 {
   "name": "vue-epic-bus",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Bus plugin for vue.js",
   "author": "Yauheni Prakopchyk",
   "private": false,
