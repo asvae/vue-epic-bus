@@ -20,7 +20,7 @@ Vue.use(BusPlugin)
 
 ## Usage
 
-Emit:
+Subscribe:
 
 ```html
 <script>
@@ -34,7 +34,7 @@ export default {
 </script>
 ```
 
-Subscribe:
+Emit:
 
 ```html
 <script>
@@ -63,6 +63,3 @@ Vue.use(BusPlugin, {
   broadcastName: '$cast',
 })
 ```
-
-
-
