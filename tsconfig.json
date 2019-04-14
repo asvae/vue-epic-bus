@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "lib": [
+      "dom",
+      "es5",
+      "es6",
+      "es7",
+      "es2015",
+      "es2015.promise",
+      "es2017"
+    ],
+    "allowJs": false,
+    "declaration": true,
+    "sourceMap": true,
+    "rootDir": "./src",
+    "importHelpers": true,
+    "strict": true,
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "diagnostics": true
+  }
+}

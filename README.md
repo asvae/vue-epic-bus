@@ -1,6 +1,13 @@
 # vue-epic-bus
 Emit and subscribe to global bus from your components
 
+## Gist
+
+* Minimal boilerplate.
+* Vue flavor.
+* Can't be used outside of vue components (intended).
+* No memory leaks.
+
 ## Installation
 
 * Add to dependencies:
